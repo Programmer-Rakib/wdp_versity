@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>contact pages</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>eCom website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Banner  -->
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" alt="Logo"></a>
+            <div class="nav_link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="about.html">About</a></li>
+                    <li> <a href="gallery.html">Gallery</a></li>
+                    <li> <a href="blog.html">Blog</a></li>
+                    <li> <a href="contact.html">Contact Us</a></li>
+                    <a href="" class="join-btn">Join us</a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Contact Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Contact  -->
+
+    <section class="contact">
+
+        <div class="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.923530209911!2d90.38942231498136!3d23.750106184589622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c70e67bbf977%3A0xad83526c894485f0!2sCity%20University!5e0!3m2!1sen!2sbd!4v1631128383653!5m2!1sen!2sbd"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        </div>
+
+        <div class="continfo">
+            <div class="row">
+
+                <div class="conadd">
+                    <h3>About us:</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio reiciendis sapiente tempora
+                        neque porro repellat laborum voluptatum qui facilis impedit?</p>
+                    <br>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5> +880 1778-149097 </h5>
+                            <p> Saturday to Thursday ( 10AM to 5PM) </p>
+                        </span>
+
+                    </div>
+                    <div class="line"></div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                            <h5>info@rkbike.com </h5>
+                            <p> Don't hesitate to contact me.</p>
+                        </span>
+
+                    </div>
+                    <div class="line"></div>
+
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>13/A Panthapath, Dhaka 1215 </h5>
+                            <p> Near to Bosundhora Shopping Complex</p>
+                        </span>
+
+                    </div>
+
+
+                </div>
+
+                <div class="contbox">
+
+                    <h3>message Us</h3>
+                    <form class="commentform">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="email" placeholder="Enter your mail Address" required>
+                        <input type="text" placeholder="Enter your subject" required>
+                        <textarea rows="8" placeholder="Type your messages" required></textarea>
+
+                        <button type="submit" class="view-btn"> Send messages </button>
+
+                    </form>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- Footer  -->
+
+    <section class="footer">
+        <h3>Contact Me.</h3>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/fivepixel.bd" target="-blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/five_pixel" target="-blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://twitter.com/fivepixel" target="-blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/fivepixel.bd" target="-blank"><i class="fa fa-google-plus"></i></a>
+            <a href="https://www.linkedin.com/in/rakib-hasan-858727150/" target="-blank"><i
+                    class="fa fa-linkedin"></i></a>
+
+        </div>
+        <p> UI & Font-End Design By <i class="fa fa-heart"></i> <span style="font-weight: bold;"> Mazharul Islam </span>
+        </p>
+    </section>
+
+    <!-- Simple JavasScript Use -->
+    <script>
+        var nav_link = document.getElementById("navLink");
+
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

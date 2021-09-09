@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gallery Pages</title>
+
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>eCom website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Banner  -->
+    <section class="sub-header">
+
+        <nav>
+            <a href="index.html"> <img src="images/logo.png" alt="Logo"></a>
+            <div class="nav_link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <li> <a href="about.html">About</a></li>
+                    <li> <a href="gallery.html">Gallery</a></li>
+                    <li> <a href="blog.html">Blog</a></li>
+                    <li> <a href="contact.html">Contact Us</a></li>
+                    <a href="" class="join-btn">Join us</a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Gallery  -->
+
+    <section class="gallery">
+        <h1> See Out All Images! </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Velit quae obcaecati quo impedit dolore nobis aut,
+            facilis quia laborum nisi? </p>
+
+        <div class="row">
+            <div class="view">
+                <img src="images/p3.jpg">
+                <div class="imgOverlay">
+
+                </div>
+            </div>
+
+            <div class="view">
+                <img src="images/p2.jpg">
+                <div class="imgOverlay">
+
+                </div>
+            </div>
+
+            <div class="view">
+                <img src="images/p4.jpg">
+                <div class="imgOverlay">
+
+                </div>
+            </div>
+
+            <div class="view">
+                <img src="images/p1.jpg">
+                <div class="imgOverlay">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="view">
+                <img src="images/p3.jpg">
+                <div class="imgOverlay">
+
+                </div>
+            </div>
+
+            <div class="view">
+                <img src="images/p2.jpg">
+                <div class="imgOverlay">
+
+                </div>
+            </div>
+
+            <div class="view">
+                <img src="images/p4.jpg">
+                <div class="imgOverlay">
+
+                </div>
+            </div>
+
+            <div class="view">
+                <img src="images/p1.jpg">
+                <div class="imgOverlay">
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- Footer  -->
+
+    <section class="footer">
+        <h3>Contact Me.</h3>
+
+        <div class="icons">
+            <a href="https://www.facebook.com/fivepixel.bd" target="-blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/five_pixel" target="-blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://twitter.com/fivepixel" target="-blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://twitter.com/fivepixel.bd" target="-blank"><i class="fa fa-google-plus"></i></a>
+            <a href="https://www.linkedin.com/in/rakib-hasan-858727150/" target="-blank"><i
+                    class="fa fa-linkedin"></i></a>
+
+        </div>
+        <p> UI & Font-End Design By <i class="fa fa-heart"></i> <span style="font-weight: bold;"> Mazharul Islam </span>
+        </p>
+    </section>
+
+    <!-- Simple JavasScript Use -->
+    <script>
+        var nav_link = document.getElementById("navLink");
+
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

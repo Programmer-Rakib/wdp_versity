@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SignUp Page</title>
+
+    <meta name="viewpoint" content="with=device-width, initial-scale=1.0">
+    <title>eCom website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+
+    <!-- Sign in page  -->
+
+    <section class="signin">
+       
+        <h2>...</h2>
+        <div class="main">
+            
+            <form>
+          
+                <h2>Name</h2>
+                <input type="text" class="fn" name="first_name" placeholder="First Name" required>
+
+                <input type="text" class="ln" name="last_name" placeholder="Last Name" required>
+
+                <h2 class="name"> Business Name </h2>
+                <input type="text" class="bn" name="bn" placeholder="Enter your Business Name">
+
+                <h2 class="name"> Email Address </h2>
+                <input type="text" class="email" name="email"  placeholder="Enter your mail address" required>
+
+                <h2 class="name"> Phone Number </h2>
+
+
+                <input type="text" class="code" name="countrycode" placeholder="Code" required>
+
+
+                <input type="text" class="number" name="phone" placeholder="   --   --   --   --    --   --   --    --    --    --" required>
+
+
+                <h2 class="name"> Country </h2>
+
+                <select class="option">
+                    <option selected="selected" disabled="dis" required> Selected the Country </option>
+                    <option> Afghanistan </option>
+                    <option> Bangladesh </option>
+                    <option> Chine </option>
+                    <option> Dubai </option>
+                    <option> Egypt </option>
+                </select>
+
+                <h2 id="gender"> Gender: </h2>
+                <label class="radio">
+                    <input type="radio" class="r1" checked="checked" name="">
+                    <span class="checkmark"></span>
+                    Male
+                </label>
+                <label class="radio">
+                    <input type="radio" class="r2" checked="checked" name="">
+                    <span class="checkmark"></span>
+                    Female
+                </label>
+                <label class="radio">
+                    <input type="radio" class="r2" checked="checked" name="">
+                    <span class="checkmark"></span>
+                    Others
+                </label>
+
+                <h2>Password </h2>
+                <input type="password" class="pas1" name="first_name" placeholder="Type Password" required>
+                <input type="password" class="pas2" name="last_name" placeholder="Confirm Password" required>
+
+                    <a href="signin.html"></a>
+                           <button type="submit" class="form-btn">
+                    <h3>Submit Now</h3>
+                </button>
+
+                    </a>
+             
+
+
+            </form>
+
+            <div class="signup">
+                <p>You have an account. <a href="signin.html"> Sign in</a> </p>
+
+            </div>
+         
+
+
+        </div>
+
+
+    </section>
+
+    <div class="title">
+        <p> Registration Here </p>
+
+    </div>
+
+
+
+
+    <!-- Simple JavasScript Use -->
+    <script>
+        var nav_link = document.getElementById("navLink");
+
+        function showMenu() {
+            navLink.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLink.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
